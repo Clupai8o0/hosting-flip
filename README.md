@@ -23,8 +23,8 @@ cd C:\Users\User\Documents\Projects\...
 ```
 git init
 ```
-3. Create a project on [github](https://github.com/new) and copy the code
-4. Add a remote origin to that project
+3. Create a project on [github](https://github.com/new) and copy the link given
+4. Add a remote origin to that project using the link
 ```
 git remote add origin "https://github.com/Username/project-name.git"
 ```
@@ -45,6 +45,10 @@ git push
 
 ## Web Hosting
 
+- [Static Counter](https://github.com/Clupai8o0/static-counter)
+- [NMMUN](https://github.com/Clupai8o0/nmmun)
+- [Digi Convertor Server](https://github.com/Clupai8o0/digi-convertor-server-v2)
+
 ### Hosting static project on github
 
 Static project would be a pure HTML, CSS and JS project, not including any frameworks like react etc.
@@ -59,7 +63,7 @@ Static project would be a pure HTML, CSS and JS project, not including any frame
 For projects that use a framework like vite, react, nextjs etc. (or you could host static pages as well)
 
 1. Create an account on [vercel](https://vercel.com/) (preferrably with your github account)
-2. Add a new project
+2. Click add a new project
 3. Find the project you want to add from your github
 4. Import that project, choose the same framework used for the project and then deploy
 5. With no errors, your project should be deployed on vercel
